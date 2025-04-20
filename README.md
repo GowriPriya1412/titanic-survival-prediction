@@ -51,6 +51,28 @@ How to Run
    cd titanic-survival-prediction
 3. Run the notebook: Open Titanic solution-checkpoint.ipynb in Jupyter or VS Code.
 
+Key Insights from Titanic Survival Prediction
+Survival Distribution:
+1. About 38% of passengers survived, while 62% did not survive, as shown by the class distribution in the pie chart.
+2. This highlights the harsh survival conditions during the disaster.
+
+Gender Matters:
+1. A higher proportion of female passengers survived compared to males.
+2. This aligns with the “women and children first” evacuation policy followed on the Titanic.
+
+Passenger Class Influence:
+1. Among female passengers, most were traveling in 3rd class, followed by 1st and 2nd class.
+2. Despite the large number in 3rd class, survival rates were higher for 1st class passengers, likely due to quicker access to lifeboats.
+
+Young Females Had Better Chances:
+1. Females under 30 had a higher survival rate than other age groups.
+2. This could be attributed to prioritization during evacuation.
+
+Data Preprocessing Included:
+1. Handled missing values (like Age)
+2. Explored distributions using value_counts(), describe(), and pie charts
+3. Visualized survival rates by gender and class using Matplotlib
+
 Author:
 1. Gowri Priya
 2. www.linkedin.com/in/gowripriya1412
